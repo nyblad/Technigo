@@ -1,0 +1,267 @@
+body {
+    background-color: #fff;
+  }
+
+h1 {
+  color: #00494C;
+  font-family: 'Baloo Bhai', cursive;
+  font-size: 44px;
+}
+h2 {
+  color: #00494C;
+  font-family: 'Baloo Bhai', cursive;
+  font-size: 26px;
+}
+p {
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+}
+a {
+	color:#fff;
+	font-family: 'Lato', sans-serif;
+	font-size: 14px;
+	text-decoration: underline;
+}
+a:hover {						
+	color:#fff;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+/***WRAPPER***/
+#wrapper{
+	overflow: hidden;
+	background-color: #fff;
+	width: 90%;
+	height:auto;
+	margin: 0 auto;
+	padding: 0;
+}
+/***CONTENT***/
+#contentmain {					
+	background-image: url("Images/Picmain.jpg");
+	width: 95%;
+	height: 250px;
+	padding: 10px;
+	margin: 0 auto;
+	float: left;
+	overflow: auto;		/***Overflow bestämmer vad som händer om text går utanför***/
+}
+#contentleft {
+	background-color: #00494C;
+	width: 30%;
+	height: 250px;
+	float: left;
+	padding: 10px;
+	margin-top: 10px;
+	margin-right: 10px;
+	text-align: center;
+	overflow: auto;		
+}
+#contentcenter {
+	background-color: #000;
+	width: 30%;
+	height: 250px;
+	float: left;
+	padding: 10px;
+	margin-top: 10px;
+	text-align: center;
+	overflow: auto;		
+}
+#contentright {
+	background-color: #00494C;
+	width: 30%;
+	height: 250px;
+	float: left;
+	padding: 10px;
+	margin: 10px;
+	text-align: center;
+	overflow: auto;		
+}
+footer {
+	width: 90%;
+	text-align: center;
+}
+}
+
+/*********** On screens that are 992px or less NORMAL DESKTOP/LAPTOP***********/
+@media screen and (max-width: 992px) {
+  body {
+    background-color: #fff;
+  }
+
+h1 {
+  color: #00494C;
+  font-family: 'Baloo Bhai', cursive;
+  font-size: 44px;
+}
+h2 {
+  color: #00494C;
+  font-family: 'Baloo Bhai', cursive;
+  font-size: 26px;
+}
+p {
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+}
+a {
+	color:#fff;
+	font-family: 'Lato', sans-serif;
+	font-size: 14px;
+	text-decoration: underline;
+}
+a:hover {						
+	color:#fff;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+  /***WRAPPER***/
+#wrapper{
+	overflow: hidden;
+	background-color: #fff;
+	width: 80%;
+	height:auto;
+	margin: 0 auto;
+	padding: 0;
+}
+/***CONTENT***/
+#contentmain {					
+	background-image: url("Images/Picmain.jpg");
+	width: 95%;
+	height: 250px;
+	padding: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	float: left;
+	overflow: auto;		
+}	
+#contentleft {
+	background-color: #00494C;
+	width: 30%;
+	height: 250px;
+	float: left;
+	padding: 10px;
+	margin-top: 10px;
+	text-align: center;
+	overflow: auto;		
+}
+#contentcenter {
+	background-color: #000;
+	width: 30%;
+	height: 250px;
+	float: left;
+	padding: 10px;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	text-align: center;
+	overflow: auto;		
+}
+#contentright {
+	background-color: #00494C;
+	width: 30%;
+	height: 250px;
+	float: left;
+	padding: 10px;
+	margin-top: 10px;
+	text-align: center;
+	overflow: auto;		
+}
+footer {
+	width: 95%;
+	text-align: center;
+}
+}
+
+
+/*********** On screens that are 768px or less TABLET/PHONE***********/
+@media screen and (max-width: 768px) {
+  body {
+    background-color: #fff;
+  }
+
+h1 {
+  color: #00494C;
+  font-family: 'Baloo Bhai', cursive;
+  font-size: 40px;
+}
+h2 {
+  color: #00494C;
+  font-family: 'Baloo Bhai', cursive;
+  font-size: 20px;
+}
+p {
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+}
+a {
+	color:#fff;
+	font-family: 'Lato', sans-serif;
+	font-size: 14px;
+	text-decoration: underline;
+}
+a:hover {						
+	color:#fff;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+
+  /***WRAPPER***/
+#wrapper{
+	overflow: hidden;
+	background-color: #fff;
+	width: 100%;
+	height:auto;
+	margin: 0 auto;
+	padding: 0;
+}
+/***CONTENT***/
+#contentmain {					
+	background-image: url("Images/Picmain.jpg");
+	width: 95%;
+	height: 200px;
+	padding: 10px;
+	margin: 10px;
+	float: left;
+	overflow: auto;		
+}
+#contentleft {
+	background-color: #00494C;
+	width: 95%;
+	height: 150px;
+	float: left;
+	padding: 10px;
+	margin: 10px;
+	text-align: center;
+	overflow: auto;		
+}
+#contentcenter {
+	background-color: #000;
+	width: 95%;
+	height: 150px;
+	float: left;
+	padding: 10px;
+	margin: 10px;
+	text-align: center;
+	overflow: auto;		
+}
+#contentright {
+	background-color: #00494C;
+	width: 95%;
+	height: 150px;
+	float: left;
+	padding: 10px;
+	margin: 10px;
+	text-align: center;
+	overflow: auto;		
+}
+footer {
+	width: 95%;
+	text-align: center;
+}
+}
